@@ -4,7 +4,23 @@
 
 <h3 align="center">Une méthode réutilisable pour une recherche assistée par IA</h3>
 
+<p align="center">
+  Le HLRF est un cadre scientifique et opérationnel destiné aux personnes qui utilisent l'IA générative dans leurs activités de recherche tout en préservant leur propriété intellectuelle, leurs compétences, la vérification et leur responsabilité.
+</p>
+
 <p align="center"><a href="README.md">🇬🇧 English</a></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Research-blue" alt="AI Research" />
+  <img src="https://img.shields.io/badge/Responsible-AI-green" alt="Responsible AI" />
+  <img src="https://img.shields.io/badge/Human-in--the--loop-orange" alt="Human in the loop" />
+  <img src="https://img.shields.io/badge/Research-Integrity-purple" alt="Research integrity" />
+  <img src="https://img.shields.io/badge/Version-1.0-lightgrey" alt="Version 1.0" />
+</p>
+
+<p align="center">
+  Il s'adresse aux doctorants, postdoctorants, enseignants-chercheurs, professeurs, ingénieurs de recherche, étudiants et autres professionnels de la recherche. Ce n'est ni un agent IA, ni un superviseur, ni un substitut à une méthode de recherche.
+</p>
 
 ## Présentation
 
@@ -81,4 +97,3 @@ https://github.com/aurvl/hlrf
 2. UNESCO. (2023). *Guidance for generative AI in education and research*. https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research
 3. Dakan, R., Feller, J., & Anthropic. (2025). *AI Fluency: Framework and Foundations*. https://www.anthropic.com/learn/claude-for-you
 4. Anthropic. (2025). *AI Fluency: Delegation*. https://anthropic.skilljar.com/ai-fluency-framework-foundations?next=%2Fai-fluency-framework-foundations%2F291883
-
