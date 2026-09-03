@@ -1,20 +1,37 @@
-# Human-Led Research Framework (HLRF)
 
-**A reusable method for responsible AI-assisted research**
+<p align="center">
+  <img src="assets/main.png" alt="Human-Led Research Framework" style="border-radius: 16px;" />
+</p>
 
-The HLRF is a scientific and operational framework for researchers who use generative AI while preserving intellectual ownership, research competence, verification, and accountability.
+<h3 align="center">A reusable method for responsible AI-assisted research</h3>
+
+<p align="center">
+  <a href="README-fr.md">Lire en français</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Research-blue" alt="AI Research" />
+  <img src="https://img.shields.io/badge/Responsible-AI-green" alt="Responsible AI" />
+  <img src="https://img.shields.io/badge/Human-in--the--loop-orange" alt="Human in the loop" />
+  <img src="https://img.shields.io/badge/Research-Integrity-purple" alt="Research integrity" />
+  <img src="https://img.shields.io/badge/Version-1.0-lightgrey" alt="Version 1.0" />
+</p>
+
+<p align="center">
+  The HLRF is a scientific and operational framework for researchers who use generative AI while preserving intellectual ownership, research competence, verification, and accountability.
+</p>
 
 It is designed for doctoral researchers, postdoctoral researchers, academic staff, research engineers, and students conducting genuine research. It is not an AI agent, a supervisor, a substitute for a research method, or a repository of disciplinary knowledge. It is a boundary-setting and traceability system that helps a researcher decide what must remain human, what may be delegated, how outputs must be checked, and how significant AI use must be recorded.
 
 ## Why this framework is needed
 
-Generative AI can now assist with literature discovery, summarisation, translation, coding, data processing, drafting, and other research-adjacent tasks. The productivity case is real but task-dependent: empirical studies report substantial gains in some professional settings, while also showing that benefits vary by task and user expertise. The 2025 Stanford AI Index synthesises productivity effects ranging from approximately 10% to 45% across major studies and reports rapid progress on demanding benchmarks, alongside continuing weaknesses in complex reasoning and reliability ([Stanford HAI, 2025](https://hai.stanford.edu/ai-index/2025-ai-index-report)).
+Generative AI can now assist with literature discovery, summarisation, translation, coding, data processing, drafting, and other research-adjacent tasks. The productivity case is real but task-dependent: empirical studies report substantial gains in some professional settings, while also showing that benefits vary by task and user expertise. The 2025 Stanford AI Index synthesises productivity effects ranging from approximately 10% to 45% across major studies and reports rapid progress on demanding benchmarks, alongside continuing weaknesses in complex reasoning and reliability ([Maslej et al., 2025](https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf)).
 
-The relevant question is therefore not whether researchers should use AI or reject it. The question is how researchers can use increasingly capable systems without outsourcing the activities through which they become researchers: questioning, conceptualisation, hypothesis formation, methodological judgement, interpretation, critical evaluation, and responsibility for claims.
+The relevant question is therefore not whether researchers should use AI or reject it. The question is how researchers can use increasingly capable systems without outsourcing the activities through which they become researchers: **questioning, conceptualisation, hypothesis formation, methodological judgement, interpretation, critical evaluation**, and **responsibility for claims**.
 
 This question is becoming more urgent because leading AI companies increasingly describe frontier systems in terms approaching expert or doctoral-level performance on particular tasks. For example, OpenAI CTO Mira Murati was reported in 2024 as predicting “PhD-level intelligence” for specific tasks within a few years ([Benzinga, 2024](https://www.benzinga.com/news/24/06/39427295/chatgpt-with-phd-level-intelligence-top-openai-executive-says-its-possible-in-couple-of-years-while)). This must not be treated as evidence that current systems possess general scientific expertise. Google DeepMind CEO Demis Hassabis has explicitly distinguished isolated PhD-level capabilities from general PhD-level intelligence, highlighting failures in generality and continued learning ([Windows Central, 2025](https://www.windowscentral.com/artificial-intelligence/google-deepmind-ceo-dismisses-claims-of-phd-level-ai-as-nonsense)). High performance on selected tasks does not transfer scientific agency, epistemic responsibility, or ownership from the researcher to the system.
 
-International guidance reaches a compatible conclusion. UNESCO calls for a human-centred approach to generative AI in education and research, including privacy protection, institutional validation, capacity-building, and attention to human agency ([UNESCO, 2023](https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research)). Anthropic’s AI Fluency course frames responsible human-AI collaboration through four competencies-Delegation, Description, Discernment, and Diligence-and treats delegation as the deliberate distribution of tasks between a person and an AI system ([Dakan, Feller & Anthropic, 2025](https://www.anthropic.com/ai-fluency/ai-fluency-delegation)). The HLRF adapts that practical insight to the epistemic and developmental obligations of research.
+International guidance reaches a compatible conclusion. UNESCO calls for a human-centred approach to generative AI in education and research, including privacy protection, institutional validation, capacity-building, and attention to human agency ([UNESCO, 2023](https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research)). Anthropic’s AI Fluency course frames responsible human-AI collaboration through four competencies (Delegation, Description, Discernment, and Diligence) and treats delegation as the deliberate distribution of tasks between a person and an AI system ([Dakan, Feller & Anthropic, 2025](https://anthropic.skilljar.com/ai-fluency-framework-foundations?next=%2Fai-fluency-framework-foundations%2F291883)). The HLRF adapts that practical insight to the epistemic and developmental obligations of research.
 
 ## The research problem
 
@@ -183,13 +200,11 @@ aiact/                                    # Anonymous reusable copy of the opera
 
 ## References
 
-1. Stanford Institute for Human-Centered Artificial Intelligence. (2025). *The 2025 AI Index Report*. https://hai.stanford.edu/ai-index/2025-ai-index-report
+1. Maslej, N., Fattorini, L., Perrault, R., Gil, Y., Parli, V., Kariuki, N., Capstick, E., Reuel, A., Brynjolfsson, E., Etchemendy, J., Ligett, K., Lyons, T., Manyika, J., Niebles, J. C., Shoham, Y., Wald, R., Walsh, T., Hamrah, A., Santarlasci, L., Betts Lotufo, J., Rome, A., Shi, A., & Oak, S. (2025). “The AI Index 2025 Annual Report.” AI Index Steering Committee, Institute for Human-Centered AI, Stanford University, Stanford, CA. https://doi.org/10.48550/arXiv.2504.07139
 2. UNESCO. (2023). *Guidance for generative AI in education and research*. https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research
 3. Dakan, R., Feller, J., & Anthropic. (2025). *AI Fluency: Framework and Foundations*. https://www.anthropic.com/learn/claude-for-you
-4. Anthropic. (2025). *AI Fluency: Delegation*. https://www.anthropic.com/ai-fluency/ai-fluency-delegation
+4. Anthropic. (2025). *AI Fluency: Delegation*. https://anthropic.skilljar.com/ai-fluency-framework-foundations?next=%2Fai-fluency-framework-foundations%2F291883
 5. Murati, M. (2024, as reported). *ChatGPT with “PhD-level intelligence” discussion*. https://www.benzinga.com/news/24/06/39427295/chatgpt-with-phd-level-intelligence-top-openai-executive-says-its-possible-in-couple-of-years-while
 6. Google DeepMind CEO Demis Hassabis, as reported by Windows Central. (2025). *Modern systems and the limits of “PhD-level” intelligence*. https://www.windowscentral.com/artificial-intelligence/google-deepmind-ceo-dismisses-claims-of-phd-level-ai-as-nonsense
 
 These references support the motivation and context of this README; they do not validate the HLRF as an empirically effective intervention. That claim remains an open research question.
-
-
