@@ -1,12 +1,16 @@
 
 <p align="center">
-  <img src="assets/main.png" alt="Human-Led Research Framework" style="border-radius: 16px;" />
+  <img src="assets/main.png" alt="Human-Led Research Framework" style="border-radius: 13px;" />
 </p>
 
 <h3 align="center">A reusable method for responsible AI-assisted research</h3>
 
 <p align="center">
-  <a href="README-fr.md">Lire en français</a>
+  The HLRF is a scientific and operational framework for researchers who use generative AI while preserving intellectual ownership, research competence, verification, and accountability.
+</p>
+
+<p align="center">
+  <a href="README-fr.md">🇫🇷 Français</a>
 </p>
 
 <p align="center">
@@ -17,11 +21,10 @@
   <img src="https://img.shields.io/badge/Version-1.0-lightgrey" alt="Version 1.0" />
 </p>
 
-<p align="center">
-  The HLRF is a scientific and operational framework for researchers who use generative AI while preserving intellectual ownership, research competence, verification, and accountability.
-</p>
 
-It is designed for doctoral researchers, postdoctoral researchers, academic staff, research engineers, and students conducting genuine research. It is not an AI agent, a supervisor, a substitute for a research method, or a repository of disciplinary knowledge. It is a boundary-setting and traceability system that helps a researcher decide what must remain human, what may be delegated, how outputs must be checked, and how significant AI use must be recorded.
+<p align="center">
+  It is designed for doctoral researchers, postdoctoral researchers, academic staff, research engineers, and students conducting genuine research. It is not an AI agent, a supervisor, a substitute for a research method, or a repository of disciplinary knowledge. It is a boundary-setting and traceability system that helps a researcher decide what must remain human, what may be delegated, how outputs must be checked, and how significant AI use must be recorded.
+</p>
 
 ## Why this framework is needed
 
