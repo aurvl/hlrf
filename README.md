@@ -175,30 +175,30 @@ The resulting personalised framework should normally be kept private unless the 
 ### Example prompt to initialise a project session
 
 ```text
-I am starting a research project. First, use the public Human-Led Research Framework repository as your reference model: https://github.com/aurvl/hlrf.
+I already have a local copy of the HLRF framework at `/path/to/hlrf`. Use that local folder as the reference for this research session and use the project’s `.aiact_logs/` folder as its working memory.
 
-Read the framework’s mandatory identity, charter, delegation, evidence, writing, transparency, and data-confidentiality instructions as applicable. Then inspect the project’s .aiact_logs/CURRENT_TASK_SUMMARY.md and relevant logs if they already exist.
+My research project examines the impact of climate warming. My preferred research approach is [describe it briefly: for example, evidence-led, cautious about causal claims, attentive to competing explanations, and based on transparent comparisons across contexts]. When exploring a topic, I usually [describe your practice: for example, begin with a broad literature map, identify the main mechanisms and disagreements, narrow the scope, and then define a tractable empirical question]. I prefer [qualitative / quantitative / mixed-methods] work and I am currently developing [relevant skills or domain knowledge].
 
-Before acting, ask me to identify the research phase and, when required, provide my Human Intellectual Seed. Help me plan and execute only within the delegation boundaries. Treat AI output as provisional, require verification of claims and references, protect confidential data, and update the project logs after major decisions, results, blockers, or changes of direction.
+For this session, help me perform this specific task: produce a structured map of peer-reviewed and institutional literature published between [start year] and [end year] on the economic impacts of climate warming in [geographic or sectoral scope]. For each source, record its full citation, research question, population or case, data, method, main finding, limitations, and DOI or stable URL. Group the sources by mechanism or research design, distinguish descriptive evidence from causal evidence, and identify disagreements between studies. Do not turn this map into a final literature review. Return a table, a short synthesis of the observed patterns, and a list of points that require my own verification or judgement.
 
-You may assist with clearly defined tasks, but I retain responsibility for research questions, hypotheses, conceptualisation, methodological decisions, interpretation, final claims, and scientific accountability. State uncertainty and flag contradictions rather than silently filling gaps.
+Use the HLRF and the existing project logs to determine how to conduct this task. If any project-specific context is missing, ask only for the information needed to execute the task. Work with public or anonymised material and record the session in the project logs according to the framework.
 ```
 
 ## Repository structure
 
 ```text
-00_RESEARCHER_IDENTITY.md                # Identity, competencies, non-delegable duties, ownership test
-01_HUMAN_LED_RESEARCH_CHARTER.md         # Seven principles, workflow, enforcement, and scope
-02_DELEGATION_PROTOCOL.md                 # D0-D3 delegation levels and ceilings
-03_IDEA_PROVENANCE_PROTOCOL.md            # Human intellectual seed and idea-origin rules
+00_RESEARCHER_IDENTITY.md                  # Identity, competencies, non-delegable duties, ownership test
+01_HUMAN_LED_RESEARCH_CHARTER.md           # Seven principles, workflow, enforcement, and scope
+02_DELEGATION_PROTOCOL.md                  # D0-D3 delegation levels and ceilings
+03_IDEA_PROVENANCE_PROTOCOL.md             # Human intellectual seed and idea-origin rules
 04_METHOD_DECISION_PROTOCOL.md             # Human responsibility for methodological decisions
-05_EVIDENCE_AND_VERIFICATION_PROTOCOL.md  # Verification of sources, code, data, and outputs
+05_EVIDENCE_AND_VERIFICATION_PROTOCOL.md   # Verification of sources, code, data, and outputs
 06_WRITING_AND_AUTHORSHIP_PROTOCOL.md      # Writing, authorship, and substantive prose boundaries
 07_AI_TRANSPARENCY_PROTOCOL.md             # Disclosure and continuous AI-use traceability
 08_DATA_CONFIDENTIALITY_PROTOCOL.md        # Data protection, privacy, and secure-tool rules
-logs/                                     # Reusable project log templates
-tracking/                                 # Periodic self-assessment and evolution tracking
-aiact/                                    # Anonymous reusable copy of the operational framework
+logs/                                      # Reusable project log templates
+tracking/                                  # Periodic self-assessment and evolution tracking
+template_personalisation_questionnaire.md  # Questionnaire template for framework personalisation
 ```
 
 ## References
